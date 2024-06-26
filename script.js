@@ -30,7 +30,7 @@ function calculateAge(birthdate) {
 function displayAge(age) {
   const ageResultElement = document.getElementById("age-result");
   if (age.years >= 0) {
-    ageResultElement.innerText = `You are ${age.years} years, ${age.months} months, and ${age.days} days old.`;
+    ageResultElement.innerText = `You are ${age.years} years ${age.months} months and ${age.days} days old.`;
   } else {
     ageResultElement.innerText = "Please enter a valid birthdate.";
   }

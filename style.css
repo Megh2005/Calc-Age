@@ -1,5 +1,5 @@
 body {
-  font-family: "Playwrite FR Trad", cursive;
+  font-family: "Oswald", sans-serif;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -7,8 +7,13 @@ body {
   margin: 0;
   background-color: var(--background-color);
   color: var(--text-color);
-  transition: background-color 0.3s, color 0.3s;
+  transition: background-color 1s, color 1s;
   font-weight: 800;
+  text-transform: capitalize;
+}
+
+.mode-toggle span{
+    font-size: 5rem;
 }
 
 :root {
@@ -36,6 +41,10 @@ body {
   width: 500px;
   transition: background-color 1s;
   box-sizing: border-box;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
 h1 {
@@ -61,7 +70,7 @@ h1 {
 
 label {
   display: block;
-  margin-bottom: 5px;
+  margin-bottom: 10px;
 }
 
 input[type="date"] {
@@ -81,7 +90,7 @@ button {
   color: white;
   font-weight: 800;
   cursor: pointer;
-  transition: background-color 0.3s;
+  transition: background-color 1s;
   margin-top: 10px;
   width: 100%;
   box-sizing: border-box;
@@ -118,7 +127,7 @@ button:hover {
   right: 0;
   bottom: 0;
   background-color: #ccc;
-  transition: 0.4s;
+  transition: 1s;
   border-radius: 34px;
 }
 
@@ -130,7 +139,7 @@ button:hover {
   left: 4px;
   bottom: 4px;
   background-color: white;
-  transition: 0.4s;
+  transition: 1s;
   border-radius: 50%;
 }
 
