@@ -12,8 +12,8 @@ body {
   text-transform: capitalize;
 }
 
-.mode-toggle span{
-    font-size: 5rem;
+.mode-toggle span {
+  font-size: 5rem;
 }
 
 :root {
@@ -170,4 +170,44 @@ input:checked + .slider:before {
   .mode-toggle span {
     font-size: 0.9em;
   }
+}
+
+.contactUs {
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  text-align: center;
+}
+
+.contactUs h1 {
+  margin: 20px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  margin-left: -500px;
+}
+
+#homeButton {
+  width: 300px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  font-weight: 700;
+  padding: 10px 20px;
+  border-radius: 10%;
+  background-color: green;
+  margin: 10px;
+  transition: all ease-in-out 0.5s;
+}
+
+a:hover {
+  text-decoration: none;
+  color: white;
+  font-weight: 700;
+  padding: 7.5px 15px;
+  border-radius: 10%;
+  background-color: orangered;
+  margin: 10px;
 }

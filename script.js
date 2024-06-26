@@ -46,3 +46,15 @@ function displayAge(age) {
 document.getElementById("toggle-mode").addEventListener("change", function () {
   document.body.classList.toggle("dark-mode", this.checked);
 });
+
+const contactButton = document.getElementById("contactButton");
+
+contactButton.addEventListener("click", function () {
+  window.location.href = "contact.html";
+});
+
+const homeButton = document.getElementById("homeButton");
+
+homeButton.addEventListener("click", function () {
+  window.location.href = "/";
+});
