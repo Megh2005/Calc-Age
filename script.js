@@ -2,6 +2,10 @@ alert(
   "This project is for innovation purposes. I don't have any intention to look down upon any belief. For information mail to iammeghdeb@gmail.com"
 );
 
+window.addEventListener(`contextmenu`, (e) => {
+  e.preventDefault();
+});
+
 document.getElementById("calculate-age").addEventListener("click", function () {
   const birthdate = document.getElementById("birthdate").value;
   if (birthdate) {
